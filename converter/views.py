@@ -1,3 +1,6 @@
 from django.shortcuts import render
 
-# Create your views here.
+def index(request):
+	word = 'hello!'
+	context = {'word': word}
+	return render(request, 'converter/index.html', context)
