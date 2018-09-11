@@ -1,4 +1,4 @@
-# CurrencyConverter
+# CurrencyConverter (under construction)
 
 Simple Django project 
 
