@@ -16,7 +16,6 @@ def index(request):
 					return HttpResponse('<center>Wrong currency<br><br>You can use: <br>' + "<br> ".join(currency_codes))
 			post.id = 1
 			post.save()
-			print(post.id, post.amount)
 	else:
 		form = DataForm()
 	currency_date = Data.objects.get(id=1).date
